@@ -101,6 +101,6 @@ export class HeroService {
       // Let the app keep running by returning an empty result.
       return of(result as T);
     };
-}
+  }
 
 }
